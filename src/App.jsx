@@ -3,6 +3,7 @@
 import Header from '../src/components/header'
 import './App.css'
 import Search_bar from '../src/components/searchbar'
+import Movie_item from '../src/components/movieitem'
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
     <>
       <Header/>
       <Search_bar/>
+      <Movie_item/>
+
     </>
   )
 }
